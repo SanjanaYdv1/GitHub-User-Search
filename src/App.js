@@ -32,7 +32,7 @@ function App() {
     return (
         <div className={`app ${darkMode ? "dark-mode" : "light-mode"}`}>
             <header>
-                <h1>devfinder</h1>
+                <h1>Sanjana</h1>
                 <button className="mode-switch" onClick={toggleDarkMode}>
                     {darkMode ? "LIGHT" : "DARK"} <span className="mode-icon">☀️</span>
                 </button>
